@@ -1,7 +1,10 @@
 # Copy2gist [![npm version](https://img.shields.io/npm/v/copy2gist.svg)](https://www.npmjs.com/package/copy2gist) [![Build Status](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 Dead-simple Copy Paste directly from your clipboard to pastebin.com via terminal
-> npm install -g copy2gist
+
+```
+npm install -g copy2gist
+```
 
 Install this globally and you'll have access to the `copy2gist` command anywhere on your system.
 
