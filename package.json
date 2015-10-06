@@ -1,0 +1,40 @@
+{
+  "name": "copy2gist",
+  "version": "0.0.1",
+  "description": "Copy Paste directly from your clipboard to GIST via terminal",
+  "homepage": "https://github.com/silverbux/copy2gist",
+  "keywords": [
+    "npm-copy2gist",
+    "copy2gist",
+    "gist",
+    "copypaste",
+    "copy",
+    "paste",
+    "gistcli"
+  ],
+  "author": {
+    "name": "Alex Quiambao",
+    "email": "alexquiambao@gmail.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverbux/copy2gist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silverbux/copy2gist/issues"
+  },
+  "dependencies": {
+    "confirm-cli": "^0.4.0",
+    "octonode": "^0.7.1"
+  },
+  "bin": {
+    "pastebin": "index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "engines": {
+    "node": ">=0.4.0"
+  }
+}
