@@ -1,6 +1,6 @@
 {
   "name": "copy2gist",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Copy Paste directly from your clipboard to GIST via terminal",
   "homepage": "https://github.com/silverbux/copy2gist",
   "keywords": [
