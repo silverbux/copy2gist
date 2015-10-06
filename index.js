@@ -3,6 +3,7 @@ var confirm       = require('confirm-cli')
 var github        = require('octonode')
 var child_process = require('child_process')
 var execFile      = child_process.execFile
+var open          = require('open')
 
 var pasteBoard = function (callback) {
   child_process.exec('pbpaste', function (error, stdout, stderr) {
@@ -72,6 +73,7 @@ pasteBoard(function (data) {
         } else {
           console.log(data.html_url)
           clipBoard(data.html_url)
+          open(data.html_url)
           console.log('URL copied to your clipboard...')
         }
       })

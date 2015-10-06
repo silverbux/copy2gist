@@ -1,6 +1,6 @@
 {
   "name": "copy2gist",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Copy Paste directly from your clipboard to GIST via terminal",
   "homepage": "https://github.com/silverbux/copy2gist",
   "keywords": [
@@ -26,10 +26,11 @@
   },
   "dependencies": {
     "confirm-cli": "^0.4.0",
-    "octonode": "^0.7.1"
+    "octonode": "^0.7.1",
+    "open": "0.0.5"
   },
   "bin": {
-    "pastebin": "index.js"
+    "copy2gist": "index.js"
   },
   "main": "index.js",
   "license": "MIT",
